@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  --bg-color: #0c0c1d;
+}
+
+:root {
+  --section-color: white;
+  --green: #bbdbb4;
+  --red: #fcf0cc;
+  --purple: #d56aa0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: lightgray;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.homepage {
+  height: 100vh;
+}
+
+

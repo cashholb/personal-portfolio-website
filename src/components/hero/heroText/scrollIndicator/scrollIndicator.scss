@@ -1,0 +1,50 @@
+
+.scroll-indicator {
+  display: flex;
+  margin-top: 20%;
+  gap: 20px;
+}
+
+.scroll-indicator-text,
+.scroll-indicator-arrow {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  animation: rotate-text-color 8s ease-out infinite, bob-arrow 3.2s ease infinite;
+}
+
+.scroll-indicator-text,
+.scroll-indicator-arrow {
+  background-image: linear-gradient(var(--green) 0,var(--green) 16.67%,var(--bg-color) 16.67%,var(--bg-color) 33.33%,var(--red) 33.33%,var(--red) 50%,var(--bg-color) 50%,var(--bg-color) 66.67%,var(--purple) 66.67%,var(--purple) 83.33%,var(--bg-color) 83.33%,var(--bg-color) 100%);
+  background-size: 100% 600%
+}
+
+.scroll-indicator-arrow {
+  animation: bob-arrow 3.2s ease infinite;
+}
+
+@keyframes rotate-text-color {
+  0%, 25% {
+      background-position-y: 0;
+  }
+  34%, 58% {
+      background-position-y: 40%;
+  }
+  66%, 91% {
+      background-position-y: 80%;
+  }
+  100% {
+      background-position-y: 120%;
+  }
+}
+
+@keyframes bob-arrow {
+  0%, 100% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  
+}

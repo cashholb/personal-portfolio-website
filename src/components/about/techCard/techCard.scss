@@ -1,0 +1,25 @@
+
+.tech-card {
+  border: 2px solid white;
+  border-radius: 12px;
+
+  transition: all 300ms ease-in-out;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 100px;
+  min-width: 100px;
+  padding: 10px;
+
+  img {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+.tech-card:hover {
+  transform: scale(1.1)
+}
