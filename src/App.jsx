@@ -3,6 +3,7 @@ import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import About from './components/about/About'
 import Portfolio from './components/portfolio/Portfolio'
+import Contact from './components/contact/Contact'
 
 function App() {
 
@@ -20,7 +21,9 @@ function App() {
       <section id="Portfolio">
         <Portfolio></Portfolio>
       </section>
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact></Contact>
+      </section>
       
 
     </div>

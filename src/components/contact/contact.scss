@@ -1,0 +1,46 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  
+  text-align: center;
+
+  p {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.contact-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.social-button {
+  display: inline-block; // Ensure anchor behaves like a block element
+  border: 2px solid white;
+  border-radius: 12px;
+  width: 200px;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%; // Make the image fill the container
+    height: 100%; // Make the image fill the container
+    object-fit: contain;
+  }
+}
+
+.email-link {
+  text-align: center;
+  font-size: 50px;
+}

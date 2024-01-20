@@ -35,6 +35,10 @@ body {
   margin: 0 auto;
 }
 
+section:not(:first-child) {
+  margin-bottom: 150px;
+}
+
 h1 {
   font-size: 4em;
 }
@@ -57,5 +61,4 @@ a {
 .homepage {
   height: 100vh;
 }
-
 
