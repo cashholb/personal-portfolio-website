@@ -44,6 +44,11 @@ button {
   -moz-appearance: none;
 }
 
+.inactive-link {
+  pointer-events: none;
+  cursor: default;
+}
+
 .Cashton-link {
   color: var(--red)
 }
@@ -52,7 +57,7 @@ button {
   color: var(--yellow)
 }
 
-.Projects-link {
+.Portfolio-link {
   color: var(--red)
 }
 

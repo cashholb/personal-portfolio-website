@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import {motion, useAnimation} from 'framer-motion';
 
-function AnimateHeadShot({ delay = 7 }) {
+function AnimateHeadShot({ delay = 3 }) {
 
    
   const controls = useAnimation();
@@ -17,7 +17,7 @@ function AnimateHeadShot({ delay = 7 }) {
     },
     visible: {
       opacity: 1,
-      transition: {delay: 3}
+      transition: {delay: delay}
     },
     exit: {
       opacity: 0,

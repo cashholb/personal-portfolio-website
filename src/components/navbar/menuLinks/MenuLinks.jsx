@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
+import PropTypes from 'prop-types';
 
 function MenuLinks() {
 
   const items = [
     "Cashton",
     "About",
-    "Projects",
+    "Portfolio",
     "Contact"
   ];
 
@@ -32,7 +33,7 @@ function MenuLinks() {
     },
     closed: {
       x: 50,
-      opacity: 0
+      opacity: 0,
     },
   };
 
@@ -52,6 +53,10 @@ function MenuLinks() {
       ))}
     </motion.div>
   )
+}
+
+MenuLinks.propTypes = {
+  isOpen: PropTypes.bool,
 }
 
 export default MenuLinks;
