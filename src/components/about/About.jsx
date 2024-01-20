@@ -9,6 +9,10 @@ function About() {
       description: 'React'
     },
     {
+      filePath: '/techIcons/expressjs-icon.svg',
+      description: 'express.js'
+    },
+    {
       filePath: '/techIcons/javascript.svg',
       description: 'JavaScript'
     },
@@ -25,6 +29,10 @@ function About() {
       description: 'MongoDB'
     },
     {
+      filePath: '/techIcons/webpack.svg',
+      description: 'Webpack'
+    },
+    {
       filePath: '/techIcons/git.svg',
       description: 'Git'
     },
@@ -36,17 +44,17 @@ function About() {
       <div className="paragraph-section">
         <p>
           {`
-            Hello! My real name is Cashton, but I often go by just Cash.
+            Hello! My real name is Cashton, but I often go by Cash.
             I am passionate about developing technologies for the web and beyond. 
             In my free time you can catch me at the climbing gym or playing board games with friends. 
           `}
         </p>
         <p>
           {`
-            As a recent Computer Science graduate from UCSC, I have changed my career trajectory to dive deep into 
-            Full Stack Web Development and haven't looked back since. Using the skills I 
+            As a recent Computer Science graduate from UCSC, I have dived deep into 
+            Full Stack Web Development and haven't looked back. Using the skills I 
             gained from University and The Odin Project, I have been using some of the best technology for 
-            modern Full Stack Web development. Here's a snippet of that below.
+            modern Full Stack Web development. Here's a small snippet of that below.
           `}
         </p>
       </div>

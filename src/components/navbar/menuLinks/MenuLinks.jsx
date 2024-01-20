@@ -40,7 +40,7 @@ function MenuLinks() {
     <motion.div className='menu-links' variants={variants}>
       {items.map((item)=>(
         <motion.a
-          className={'menu-link'}
+          className={`menu-link ${item}-link`}
           href={`#${item}`}
           key={item}
           variants={itemVariants}
