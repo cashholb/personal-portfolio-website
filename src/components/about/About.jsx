@@ -41,6 +41,7 @@ function About() {
   return (
     <div className="about">
       <h1>About Me</h1>
+      <hr />
       <div className="paragraph-section">
         <p>
           {`
@@ -53,7 +54,7 @@ function About() {
           {`
             As a recent Computer Science graduate from UCSC, I have dived deep into 
             Full Stack Web Development and haven't looked back. Using the skills I 
-            gained from University and The Odin Project, I have been using some of the best technology for 
+            gained from University and The Odin Project, I have learned some of the best technologies for 
             modern Full Stack Web development. Here's a small snippet of that below.
           `}
         </p>

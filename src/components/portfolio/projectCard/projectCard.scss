@@ -1,0 +1,36 @@
+
+.project-card {
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 15px;
+
+  display: flex;
+  gap: 30px;
+
+  .project-card-img {
+    max-height: 300px;
+    max-width: 300px;
+
+    img {
+      max-height: 300px;
+      max-width: 300px;
+      object-fit: fill;
+    }
+  }
+
+  .project-card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .project-buttons {
+      display: flex;
+      gap: 40px;
+
+      button {
+        border: 2px solid white;
+        border-radius: 12px;
+      }
+    }
+  }
+}
