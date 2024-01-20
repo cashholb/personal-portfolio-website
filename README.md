@@ -1,8 +1,14 @@
-# React + Vite
+# Portfolio Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here is contained my portfolio website
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Todo:
+- I want to be able to navigate the page nicely
+  - ~~nav bar links go to correct id~~ 
+  - ~~nav bar open and close functionality~~
+  - custom scroll bar
+- ~~I want to be able to view the landing page~~
+- ~~I want to be able to view the about page~~
+- I want to view the person's portfolio.
+- I want to be able to conact the person through an email form on the website.
+- I want the website to be responsive when I increase / decrease the screen size.
