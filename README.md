@@ -9,6 +9,6 @@ Here is contained my portfolio website
   - custom scroll bar
 - ~~I want to be able to view the landing page~~
 - ~~I want to be able to view the about page~~
-- I want to view the person's portfolio.
-- I want to be able to conact the person through an email form on the website.
+- ~~I want to view the person's portfolio.~~
+- ~~I want to be able to contact the person through an email.~~
 - I want the website to be responsive when I increase / decrease the screen size.
