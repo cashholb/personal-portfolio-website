@@ -6,10 +6,8 @@ function HeroText() {
   return(
     <div className="hero-right">
       <div className="hero-text">
-        <h1>Hi, I&apos;m Cashton Holbert</h1>
-        
+        <h1><span className='name-span'>Cashton Holbert</span></h1>
         <p>Aspiring Full Stack Web Developer</p>
-      
       </div>
       <ScrollIndicator></ScrollIndicator>
     </div>

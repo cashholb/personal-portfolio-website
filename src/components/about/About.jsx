@@ -33,20 +33,23 @@ function About() {
   return (
     <div className="about">
       <h1>About Me</h1>
-      <p>
-        {`
-          Hello! My name is Cashton and I enjoy developing technologies for the web and beyond. 
-          In my free time you can catch me at the climbing gym or playing board games with friends. 
-        `}
-      </p>
-      <p>
-        {`
-          As a recent graduate from UCSC, I have changed my career trajectory to dive deep into Full Stack Web Development 
-          and haven't looked back since. Using the skills and knowledge I gained from University and The Odin Project, I have 
-          been working on learning the best technology for modern Full Stack Web development. Here's some of tech 
-          below.
-        `}
-      </p>
+      <div className="paragraph-section">
+        <p>
+          {`
+            Hello! My real name is Cashton, but I often go by just Cash.
+            I am passionate about developing technologies for the web and beyond. 
+            In my free time you can catch me at the climbing gym or playing board games with friends. 
+          `}
+        </p>
+        <p>
+          {`
+            As a recent Computer Science graduate from UCSC, I have changed my career trajectory to dive deep into 
+            Full Stack Web Development and haven't looked back since. Using the skills I 
+            gained from University and The Odin Project, I have been using some of the best technology for 
+            modern Full Stack Web development. Here's a snippet of that below.
+          `}
+        </p>
+      </div>
       <div className="tech-card-list">
         {icons.map((icon) => 
           <TechCard key={icon.description} svgFilePath={icon.filePath} description={icon.description}/>

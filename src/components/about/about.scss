@@ -2,10 +2,16 @@
 .about {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 36px;
 
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.paragraph-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .tech-card-list {
@@ -17,4 +23,10 @@
     @media (max-width: 768px) {
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); // Adjust for smaller screens
     }
+}
+
+.tech-card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
