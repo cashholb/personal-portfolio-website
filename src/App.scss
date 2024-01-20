@@ -62,3 +62,15 @@ a {
   height: 100vh;
 }
 
+
+@media (max-width: 768px) {
+  .project-card {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .project-card-details {
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

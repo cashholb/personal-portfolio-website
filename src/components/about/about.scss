@@ -19,10 +19,6 @@
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); // Adjust the minimum width of each column
     gap: 16px; // Adjust the gap between cards
     justify-content: center; // Center the entire grid horizontally
-
-    @media (max-width: 768px) {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); // Adjust for smaller screens
-    }
 }
 
 .tech-card-list {
