@@ -15,13 +15,13 @@ function Contact() {
       
       <div className='contact-social-links'>
         <a className='social-button'href="https://github.com/cashholb">
-          <img src="public/socialIcons/github-mark-white.svg" alt="github logo link" />
+          <img src="/socialIcons/github-mark-white.svg" alt="github logo link" />
         </a>
         <a className='social-button email-link' href="mailto::cashtoncoleholbert@gmail.com">
-          <img src="public/socialIcons/reshot-icon-email-arrow-up-YHUFD8SPL4.svg" alt="email icon" />
+          <img src="/socialIcons/reshot-icon-email-arrow-up-YHUFD8SPL4.svg" alt="email icon" />
         </a>
         <a className='social-button' href="https://linkedin.com/in/cashton-holbert-04373225a">
-            <img src="public/socialIcons/linkedin-svgrepo-com.svg" alt="linked in logo link" />
+            <img src="/socialIcons/linkedin-svgrepo-com.svg" alt="linked in logo link" />
         </a>
       </div>
     </div>
