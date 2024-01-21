@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import PropTypes from 'prop-types';
 
-function MenuLinks() {
+function MenuLinks({isMobile}) {
 
   const items = [
     "Cashton",
@@ -26,6 +26,22 @@ function MenuLinks() {
     },
   };
 
+  const mobileVariants = {
+    open: {
+      transition: {
+        staggerChildren: 0.1,
+        staggerDirection: 1,
+
+      },
+    },
+    closed: {
+      transition: {
+        staggerChildren: 0.05,
+        staggerDirection: -1,
+      },
+    },
+  };
+
   const itemVariants = {
     open: {
       x: 0,
@@ -38,8 +54,9 @@ function MenuLinks() {
   };
 
   return (
-    <motion.div className='menu-links' variants={variants}>
-      {items.map((item)=>(
+    <>
+    <motion.div className='menu-links' variants={isMobile ? mobileVariants : variants}>
+      {items.map((item)=>( 
         <motion.a
           className={`menu-link ${item}-link`}
           href={`#${item}`}
@@ -52,11 +69,12 @@ function MenuLinks() {
         </motion.a>
       ))}
     </motion.div>
+    </>
   )
 }
 
 MenuLinks.propTypes = {
-  isOpen: PropTypes.bool,
+  isMobile: PropTypes.bool,
 }
 
 export default MenuLinks;
