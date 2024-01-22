@@ -1,26 +1,8 @@
 .hero-image {
   position: relative;
-  top: 25px;
-  left: 25px;
-  width: 600px; /* Adjust the width and height based on your needs */
-  height: 444px;
+  right: 25px;
   overflow: hidden;
 }
 
-.imageA,
-.imageB {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
-.imageA {
-  z-index: 1;
-}
 
-.imageB {
-  z-index: 2;
-}

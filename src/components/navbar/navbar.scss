@@ -21,7 +21,8 @@
 
 .menu-link {
   padding: 0 20px;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(0.75px);
+  font-weight: 600;
 }
 
 button {

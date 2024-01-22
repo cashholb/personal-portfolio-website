@@ -32,8 +32,9 @@ body {
   padding-right: 15px;
 
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto
 }
+
 
 section:not(:first-child) {
   margin-bottom: 150px;
@@ -62,7 +63,6 @@ a {
   height: 100vh;
 }
 
-
 @media (max-width: 768px) {
   .navbar {
     .menu-links {
@@ -73,6 +73,27 @@ a {
 
       .menu-link {
         padding: 0 0 30px 0;
+      }
+    }
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 15px;
+
+    
+
+    .hero-image {
+      right: 25px;
+    }
+
+    .hero-right {
+      text-align: center;
+      justify-content: center;
+
+      .scroll-indicator {
+        margin-top: 50px;
+        justify-content: center;
       }
     }
   }

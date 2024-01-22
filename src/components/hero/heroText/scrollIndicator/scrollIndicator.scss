@@ -1,8 +1,16 @@
 
 .scroll-indicator {
   display: flex;
-  margin-top: 20%;
+  margin-top: 100px;
   gap: 20px;
+
+  svg {
+    fill: var(--yellow);
+  }
+}
+
+.scroll-indicator-text {
+  text-align: center;
 }
 
 .scroll-indicator-text,
@@ -21,6 +29,7 @@
 }
 
 .scroll-indicator-arrow {
+  margin-top: 7.5px;
   animation: bob-arrow 3.2s ease infinite;
 }
 

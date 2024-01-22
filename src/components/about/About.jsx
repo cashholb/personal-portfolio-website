@@ -46,8 +46,9 @@ function About() {
         <p>
           {`
             Hello! My real name is Cashton, but I often go by Cash.
-            I am passionate about developing technologies for the web and beyond. 
-            In my free time you can catch me at the climbing gym or playing board games with friends. 
+            I am passionate about developing technologies for the web and beyond. I live in Southern California for the time being, 
+            but am more than willing to move wherever life takes me next. In my free time you can catch me at the climbing gym or 
+            playing board games with friends. 
           `}
         </p>
         <p>

@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import useMediaQuery from '../../../hooks/useMediaQuery';
 
-const AnimatedSVG = ({ duration = 7, svgPathParam = '/svgPath.txt'}) => {
+const AnimatedSVG = ({ duration = 6, svgPathParam = '/heroImage/svgPath.txt', width=444, height=600}) => {
 
+  const isAnimatedSVGTooBig = useMediaQuery('(max-width: 1140px)');
   const [svgPath, setSvgPath] = useState('');
   const controls = useAnimation();
 
@@ -44,8 +46,9 @@ const AnimatedSVG = ({ duration = 7, svgPathParam = '/svgPath.txt'}) => {
 
   return (
     <>
-      <motion.svg className='hero-image imageA' xmlns="http://www.w3.org/2000/svg" width="444" height="600">
+      <motion.svg xmlns="http://www.w3.org/2000/svg"  width={isAnimatedSVGTooBig ? `${width * 0.75}` : `${width}`} height={isAnimatedSVGTooBig ? `${height * 0.75}` : `${height}`}>
         <motion.path
+          transform={isAnimatedSVGTooBig ? "scale(0.75)" : "scale(1)"}
           d={`${svgPath}`}
           fill="none"
           stroke="white"
@@ -56,6 +59,7 @@ const AnimatedSVG = ({ duration = 7, svgPathParam = '/svgPath.txt'}) => {
           exit="exit"
         />
       </motion.svg>
+
     </>
   );
 };
@@ -63,6 +67,8 @@ const AnimatedSVG = ({ duration = 7, svgPathParam = '/svgPath.txt'}) => {
 AnimatedSVG.propTypes = {
   duration: PropTypes.number,
   svgPathParam: PropTypes.string,
+  width: PropTypes.number,
+  height: PropTypes.number,
 }
 
 
