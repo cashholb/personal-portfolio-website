@@ -11,4 +11,4 @@ Here is contained my portfolio website
 - ~~I want to be able to view the about page~~
 - ~~I want to view the person's portfolio.~~
 - ~~I want to be able to contact the person through an email.~~
-- I want the website to be responsive when I increase / decrease the screen size.
+- ~~I want the website to be responsive when I increase / decrease the screen size.~~
