@@ -9,10 +9,10 @@
   padding: 0;
   margin: 0;
   font-family: "Noto Sans", sans-serif;
-  --bg-color: #0c0c1d;
 }
 
 :root {
+  --bg-color: #0c0c1d;
   --section-color: white;
   --name-color: #ffa552;
   --green: #C4D6B0;
@@ -57,6 +57,19 @@ a {
   color: inherit;
   opacity: 1;
   cursor: pointer;
+}
+
+.name-span {
+  color: var(--name-color);
+}
+
+.important-text-span {
+  color: var(--red);
+}
+
+.name-span,
+.important-text-span {
+  font-family: 'Source Code Pro', monospace;
 }
 
 .homepage {

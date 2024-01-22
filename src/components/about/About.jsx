@@ -44,20 +44,14 @@ function About() {
       <hr />
       <div className="paragraph-section">
         <p>
-          {`
-            Hello! My real name is Cashton, but I often go by Cash.
-            I am passionate about developing technologies for the web and beyond. I live in Southern California for the time being, 
-            but am more than willing to move wherever life takes me next. In my free time you can catch me at the climbing gym or 
-            playing board games with friends. 
-          `}
+            Hello! I'm <span className="name-span">Cashton</span>, although I often go by Cash. I'm passionate about creating innovative web technologies and exploring the space 
+            of <span className='important-text-span'>Full-Stack Web Development</span>. Currently based in Southern California, I'm open to embracing new opportunities wherever they may lead.
+            Outside the world of coding, you'll often find me scaling walls at the climbing gym or immersed in board games with my friends.
         </p>
         <p>
-          {`
-            As a recent Computer Science graduate from UCSC, I have dived deep into 
-            Full Stack Web Development and haven't looked back. Using the skills I 
-            gained from University and The Odin Project, I have learned some of the best technologies for 
-            modern Full Stack Web development. Here's a small snippet of that below.
-          `}
+            Having recently graduated from <span className='important-text-span'>UCSC with a degree in Computer Science</span>, I immersed myself in the world of 
+            Full Stack Web Development. Armed with the knowledge acquired from both my university experience and The Odin Project, I've honed my skills with some of the 
+            most cutting-edge technologies in the field. <span className='important-text-span'>Take a peek at what I've been working with below.</span>
         </p>
       </div>
       <div className="tech-card-list">

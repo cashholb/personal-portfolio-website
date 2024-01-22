@@ -25,8 +25,8 @@
   font-weight: 600;
 }
 
-button {
-  background: inherit;
+.menu-link:hover {
+  text-shadow: 2px 2px 2px var(--bg-color);
 }
 
 .menu-button {
