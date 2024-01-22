@@ -11,7 +11,7 @@ function Navbar() {
   const [open, setOpen, isMobile] = useNavbar();
   
   return (
-      <motion.div className='navbar' animate={ open ? 'open' : 'closed' }>
+      <motion.div className={`navbar ${open ? `navbar-open` : ``}`} animate={ open ? 'open' : 'closed' }>
         <MenuLinks isMobile={isMobile}></MenuLinks>
         <ToggleMenuButton setOpen={setOpen}></ToggleMenuButton>
       </motion.div>
