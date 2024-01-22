@@ -71,5 +71,4 @@ AnimatedSVG.propTypes = {
   height: PropTypes.number,
 }
 
-
 export default AnimatedSVG;
