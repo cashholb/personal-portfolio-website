@@ -14,5 +14,4 @@ export default defineConfig({
     Checker({ scss: true, json: true }),
   ],
   
-  base: '/personal-portfolio-website/', // Adjust based on your repository name or subdirectory
 });
