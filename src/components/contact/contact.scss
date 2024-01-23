@@ -13,6 +13,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .contact {
+    p {
+      width: 80%;
+    }
+  }
+}
+
 .contact-social-links {
   display: flex;
   justify-content: center;

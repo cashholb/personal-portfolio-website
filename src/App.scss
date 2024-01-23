@@ -118,12 +118,6 @@ a {
     flex-direction: column;
     gap: 15px;
 
-    
-
-    .hero-image {
-      right: 25px;
-    }
-
     .hero-right {
       text-align: center;
       justify-content: center;
@@ -142,6 +136,17 @@ a {
     .project-card-details {
       align-items: center;
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .project-card-img {
+    img {
+      right: 0px;
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
     }
   }
 }
