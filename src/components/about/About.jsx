@@ -1,39 +1,48 @@
 import './about.scss'
 import TechCard from './techCard/TechCard';
 
+import reactLogo from '../../assets/techIcons/react.svg';
+import expressLogo from '../../assets/techIcons/expressjs-icon.svg';
+import javaScriptLogo from '../../assets/techIcons/javascript.svg';
+import nodeJSLogo from '../../assets/techIcons/node.svg';
+import sassLogo from '../../assets/techIcons/sass.svg';
+import mongoDBLogo from '../../assets/techIcons/MongoDB_Spring-Green.svg';
+import webpackLogo from '../../assets/techIcons/webpack.svg';
+import gitLogo from '../../assets/techIcons/git.svg';
+
 function About() {
 
   const icons = [
     {
-      filePath: '/techIcons/react.svg',
+      filePath: reactLogo,
       description: 'React'
     },
     {
-      filePath: '/techIcons/expressjs-icon.svg',
+      filePath: expressLogo,
       description: 'express.js'
     },
     {
-      filePath: '/techIcons/javascript.svg',
+      filePath: javaScriptLogo,
       description: 'JavaScript'
     },
     {
-      filePath: '/techIcons/node.svg',
+      filePath: nodeJSLogo,
       description: 'NodeJS'
     },
     {
-      filePath: '/techIcons/sass.svg',
+      filePath: sassLogo,
       description: 'SASS'
     },
     {
-      filePath: '/techIcons/MongoDB_Spring-Green.svg',
+      filePath: mongoDBLogo,
       description: 'MongoDB'
     },
     {
-      filePath: '/techIcons/webpack.svg',
+      filePath: webpackLogo,
       description: 'Webpack'
     },
     {
-      filePath: '/techIcons/git.svg',
+      filePath: gitLogo,
       description: 'Git'
     },
   ];

@@ -1,5 +1,9 @@
 import './contact.scss';
 
+import githubLogo from '../../assets/socialIcons/github-mark-white.svg';
+import emailLogo from '../../assets/socialIcons/reshot-icon-email-arrow-up-YHUFD8SPL4.svg';
+import linkedinLogo from "../../assets/socialIcons/linkedin-svgrepo-com.svg";
+
 function Contact() {
   return (
     <div className="contact">
@@ -14,14 +18,14 @@ function Contact() {
       </p>
       
       <div className='contact-social-links'>
-        <a className='social-button'href="https://github.com/cashholb">
-          <img src="/socialIcons/github-mark-white.svg" alt="github logo link" />
-        </a>
         <a className='social-button email-link' href="mailto::cashtoncoleholbert@gmail.com">
-          <img src="/socialIcons/reshot-icon-email-arrow-up-YHUFD8SPL4.svg" alt="email icon" />
+          <img src={emailLogo} alt="email icon" />
         </a>
         <a className='social-button' href="https://linkedin.com/in/cashton-holbert-04373225a">
-            <img src="/socialIcons/linkedin-svgrepo-com.svg" alt="linked in logo link" />
+            <img src={linkedinLogo} alt="linked in logo link" />
+        </a>
+        <a className='social-button'href="https://github.com/cashholb">
+          <img src={githubLogo} alt="github logo link" />
         </a>
       </div>
     </div>

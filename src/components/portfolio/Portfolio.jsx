@@ -1,13 +1,16 @@
 import './portfolio.scss'
 import ProjectCard from './projectCard/ProjectCard'
 
+import portfolioImage from '../../assets/portfolioImages/portfolio-site.png';
+import threeDayForecastImage from '../../assets/portfolioImages/weather-app.png';
+import ticTacToeImage from '../../assets/portfolioImages/tic-tac-toe.png';
 
 function Portfolio() {
 
   const portfolioList = [
     {
       projectName: 'Portfolio Site',
-      img: '/portfolioImages/portfolio-site.png',
+      img: portfolioImage,
       imgAltText: 'Portfolio Site Screenshot',
       description: `My personal website and portfolio. Built with React, SASS, and Framer Motion.`,
       githubRepoLink: 'https://github.com/cashholb/personal-portfolio-website',
@@ -15,7 +18,7 @@ function Portfolio() {
     },
     {
       projectName: 'Three Day Forecast',
-      img: '/portfolioImages/weather-app.png',
+      img: threeDayForecastImage,
       imgAltText: 'Three Day Forecast Screenshot',
       description: `A weather application utilizing weatherapi.com. Built with Webpack, JS, HTML, and CSS.`,
       githubRepoLink: 'https://github.com/cashholb/Weather-App',
@@ -23,7 +26,7 @@ function Portfolio() {
     },
     {
       projectName: 'Tic-Tac-Toe',
-      img: '/portfolioImages/tic-tac-toe.png',
+      img: ticTacToeImage,
       imgAltText: 'tic tac toe application screenshot',
       description: `Play the classic game against an unbeatable adversary. Built with JavaScript, HTML, CSS, and an unbeatable computer adversary powered by the minimax algorithm.`,
       githubRepoLink: 'https://github.com/cashholb/tic-tac-toe?tab=readme-ov-file',

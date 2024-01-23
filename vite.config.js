@@ -1,11 +1,18 @@
+import Checker from 'vite-plugin-checker';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/personal-portfolio-website/",
-  plugins: [react()],
-  build: {
-    outDir: 'dist',
+  resolve: {
+    alias: {
+      '/src/assets': '/source-assets',
+    },
   },
+  plugins: [
+    react(),
+    Checker({ scss: true, json: true }),
+  ],
+  
+  base: '/personal-portfolio-website/', // Adjust based on your repository name or subdirectory
 });
