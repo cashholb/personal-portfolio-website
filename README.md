@@ -1,14 +1,11 @@
-# Portfolio Site
+# Welcome to my Personal Portfolio Site
 
-Here is contained my portfolio website
+I thought there'd be no better way to show off my Web Development skills than to make my own website.
 
-## Todo:
-- I want to be able to navigate the page nicely
-  - ~~nav bar links go to correct id~~ 
-  - ~~nav bar open and close functionality~~
-  - custom scroll bar
-- ~~I want to be able to view the landing page~~
-- ~~I want to be able to view the about page~~
-- ~~I want to view the person's portfolio.~~
-- ~~I want to be able to contact the person through an email.~~
-- ~~I want the website to be responsive when I increase / decrease the screen size.~~
+## Developed with:
+- React
+- SASS for styling
+- Framer Motion for animations
+- Vite for tooling
+
+Feel free to contact me at cashtoncoleholbert@gmail.com for buisness inquiries or a simple 'how-do-you-do'. My inbox is always open.
